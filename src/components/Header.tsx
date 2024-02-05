@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-black text-white p-4 flex items-center justify-between">
+    <div className=" bg-black text-white p-4 flex items-center justify-between">
       {/* Бургер-меню для мобільних пристроїв (зліва) */}
       <div className="md:hidden">
         <button className="text-white focus:outline-none" onClick={toggleMenu}>
@@ -29,7 +29,7 @@ const Header = () => {
         )}
       </div>
 
-      <div className="hidden md:flex items-center space-x-4 ml-20">
+      <div className="hidden md:flex items-center space-x-4 ml-20 text-xl">
         <Link to="/" className="mr-20">Головна</Link>
         <Link to="/service">Послуги</Link>
       </div>
