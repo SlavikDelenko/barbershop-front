@@ -1,5 +1,3 @@
-import React from 'react';
-import backgroundImage from './path-to-your-background-image.jpg'; // Замініть шлях на свій
 
 const Home = () => {
   const containerStyle = {
