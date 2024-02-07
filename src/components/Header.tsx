@@ -24,19 +24,21 @@ const Header = () => {
             <div className="text-white text-2xl">
               <Link to="/" onClick={toggleMenu} className="block py-2">Головна</Link>
               <Link to="/service" onClick={toggleMenu} className="block py-2">Послуги</Link>
+              <Link to="/about" onClick={toggleMenu} className="block py-2">Про нас</Link>
+              <Link to='/team' onClick={toggleMenu} className="block py-2">Команда</Link>
             </div>
           </div>
         )}
       </div>
-
-      <div className="hidden md:flex items-center space-x-4 ml-20 text-xl">
-        <Link to="/" className="mr-20">Головна</Link>
-        <Link to="/service">Послуги</Link>
-      </div>
-
-      <div className="flex items-center space-x-4 ml-auto mr-20">
-        <img src="/path/to/logo.png" alt="Логотип" className="h-8 w-8" />
-      </div>
+        <div className="hidden md:flex items-center space-x-4 ml-20 text-xl">
+            <Link to="/" className="px-7">Головна</Link>
+            <Link to="/service" className="px-7">Послуги</Link>
+            <Link to="/about" className="px-7">Про нас</Link>
+            <Link to='/team' className='px-7'>Команда</Link>
+        </div>
+        <div className="flex items-center space-x-4 ml-auto mr-20">
+            <img src="https://cdn-icons-png.flaticon.com/128/13795/13795410.png" alt="Логотип" className="h-10 w-10" />
+        </div>
     </div>
   );
 };

@@ -1,8 +1,8 @@
-
+import { Button } from "@material-tailwind/react";
 const Home = () => {
   const containerStyle = {
-    height: '93vh', 
-    backgroundImage: `url(https://assets-global.website-files.com/644a9d9ce529ef8812f82a28/647fb85c69e95444243ef9bd_Henley%27s%20Gentlemen%27s%20Grooming%20-%20Barbershop%20and%20Mens%20Grooming.webp)`,
+    height: '92vh', 
+    backgroundImage: `url(https://img1.wsimg.com/isteam/ip/c118cbcb-d10b-44fc-b513-6c49ad791ec3/blob.png/:/cr=t:16.67%25,l:0%25,w:100%25,h:66.67%25)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <div style={containerStyle}>
-      <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 absolute bottom-4 right-4">
-          Support Ukraine
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 absolute bottom-4 right-4">
+            Support Ukraine
         </button>
       </div>
     </>
