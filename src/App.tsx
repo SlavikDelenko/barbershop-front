@@ -18,7 +18,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/service" element={<Service />} />
             <Route path="/about" element={<About />} />
-            <Route path="/team" element={<Team />} />
+            {/* <Route path="/team" element={<Team />} /> */}
           </Route>
         </Routes>
       </div>
