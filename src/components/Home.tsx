@@ -1,20 +1,31 @@
-import { Button } from "@material-tailwind/react";
-const Home = () => {
-  const containerStyle = {
-    height: '92vh', 
-    backgroundImage: `url(https://img1.wsimg.com/isteam/ip/c118cbcb-d10b-44fc-b513-6c49ad791ec3/blob.png/:/cr=t:16.67%25,l:0%25,w:100%25,h:66.67%25)`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    display: 'flex',
+import React from 'react';
+import Team from './Team';
+import About from './About';
 
+
+type HomeProps = {
+    position?: 'static' | 'relative' | 'absolute' | 'fixed' | 'sticky';
+  }
+const Home = ({position = 'relative'} : HomeProps) => {
+  const containerStyle = {
+    height: '92vh',
+    position, 
   };
 
   return (
     <>
       <div style={containerStyle}>
+        <video autoPlay loop muted style={{ width: '100%', height: '100%', objectFit: 'cover' }}>
+            <source src="https://www.admin-menshall.info/wp-content/uploads/2023/12/new-small2-1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
         <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 absolute bottom-4 right-4">
-            Support Ukraine
+          Support Ukraine
         </button>
+        <div>
+            <About />
+            <Team />
+        </div>
       </div>
     </>
   );
