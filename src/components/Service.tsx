@@ -1,7 +1,7 @@
 
 export default function Service() {
   return (
-    <div>Service</div>
+    <div className="mt-40">Service</div>
   )
 }
 
