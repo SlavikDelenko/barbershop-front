@@ -6,4 +6,11 @@ module.exports = withMT({
     extend: {},
   },
   plugins: [],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      },
+    },
+  },
 });
