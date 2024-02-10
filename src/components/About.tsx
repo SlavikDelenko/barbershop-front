@@ -8,7 +8,7 @@ const About = () => {
           {/* Текстовий блок */}
           <div className="md:w-1/2 md:mr-12 bg-blue-gray-400 bg-opacity-20 p-8 rounded-lg shadow-lg">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Про нас</h2>
-            <p className="text-lg mb-6">
+            <p className="text-xl mb-6">
               Ми - ваші надійні та талановиті майстри, готові створити найстильніші зачіски та стрижки,
               які підкреслять вашу унікальність. З нашим досвідом і страстю до нашої роботи, ви можете
               бути впевнені, що ви отримаєте лише найкраще обслуговування.
