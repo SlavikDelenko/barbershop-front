@@ -32,11 +32,15 @@ const Header = () => {
       </div>
       <div className="flex justify-between items-center mx-20 md:mx-auto md:px-4 md:max-w-7xl">
         <div className="hidden md:flex items-center space-x-4 text-2xl">
-            <Link to="/" className="px-7 ">Головна</Link>
+        <div className="inline-block hover:bg-green-400 rounded-full p-2 ">
+            <Link to="/" className="px-7">Головна</Link>
+        </div>
             <div className="flex items-center space-x-4">
                 <img src="https://www.luckyclub.com.ua/wp-content/themes/lucky-club/img/logo-white.svg" alt="Логотип" className="h-20 w-auto md:h-16 md:w-auto"  />
             </div>
+        <div className='inline-block hover:bg-green-400 rounded-full p-2'>
             <Link to="/service" className="px-7">Послуги</Link>
+        </div>    
         </div>
     </div>
     </header>

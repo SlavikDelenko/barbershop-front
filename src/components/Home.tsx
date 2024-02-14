@@ -19,7 +19,7 @@ const Home = ({position = 'relative'} : HomeProps) => {
             <source src="https://www.admin-menshall.info/wp-content/uploads/2023/12/new-small2-1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
-        <button className="text-white px-4 py-2 absolute bottom-4 right-4">
+        <button className="fixed text-white px-4 py-2  bottom-4 right-4">
              <Button placeholder={""} variant="filled" className='bg-green-500'>Support Ukraine</Button>
         </button>
         <div>
